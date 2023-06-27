@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "1z+ZPUjmr8v1LeFNUf1aty9owdGZlJ9t03MMpEH3W8XS0uJHG2GiyxvxNB6LsHy+3j9Jc82wUaYGZLEj+4ZqdQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\danie\\Desktop\\JCN\\Ulohy\\02\\Namedays\\Namedays\\Uniza.NameDays.ViewerConsoleApp\\Uniza.NameDays.ViewerConsoleApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\danie\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

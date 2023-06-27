@@ -1,0 +1,131 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\danie\\Desktop\\JCN\\Ulohy\\02\\Namedays\\Namedays\\Uniza.Namedays.EditorGuiApp\\Uniza.Namedays.EditorGuiApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\danie\\Desktop\\JCN\\Ulohy\\02\\Namedays\\Namedays\\Uniza.Namedays.EditorGuiApp\\Uniza.Namedays.EditorGuiApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\danie\\Desktop\\JCN\\Ulohy\\02\\Namedays\\Namedays\\Uniza.Namedays.EditorGuiApp\\Uniza.Namedays.EditorGuiApp.csproj",
+        "projectName": "Uniza.Namedays.EditorGuiApp",
+        "projectPath": "C:\\Users\\danie\\Desktop\\JCN\\Ulohy\\02\\Namedays\\Namedays\\Uniza.Namedays.EditorGuiApp\\Uniza.Namedays.EditorGuiApp.csproj",
+        "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\danie\\Desktop\\JCN\\Ulohy\\02\\Namedays\\Namedays\\Uniza.Namedays.EditorGuiApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "C:\\Users\\danie\\Desktop\\JCN\\Ulohy\\02\\Namedays\\Namedays\\Uniza.Namedays\\Uniza.Namedays.csproj": {
+                "projectPath": "C:\\Users\\danie\\Desktop\\JCN\\Ulohy\\02\\Namedays\\Namedays\\Uniza.Namedays\\Uniza.Namedays.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\danie\\Desktop\\JCN\\Ulohy\\02\\Namedays\\Namedays\\Uniza.Namedays\\Uniza.Namedays.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\danie\\Desktop\\JCN\\Ulohy\\02\\Namedays\\Namedays\\Uniza.Namedays\\Uniza.Namedays.csproj",
+        "projectName": "Uniza.Namedays",
+        "projectPath": "C:\\Users\\danie\\Desktop\\JCN\\Ulohy\\02\\Namedays\\Namedays\\Uniza.Namedays\\Uniza.Namedays.csproj",
+        "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\danie\\Desktop\\JCN\\Ulohy\\02\\Namedays\\Namedays\\Uniza.Namedays\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[30.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

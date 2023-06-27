@@ -1,0 +1,35 @@
+﻿<Window x:Class="Uniza.Namedays.EditorGuiApp.AboutWindow"
+         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Uniza.Namedays.EditorGuiApp"
+        mc:Ignorable="d"
+        Title="About" Height="200" Width="350"
+        Background="DarkGray" xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        ResizeMode="CanMinimize">
+
+
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Row="0" Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" >
+            <TextBlock Text="Namedays " FontWeight="Bold" FontSize="30" Foreground="White"  />
+            <TextBlock Text="Version 1.0"  FontSize="14" Foreground="White"/>
+            <TextBlock Text="Copyright (c) Daniel Dziaba"  FontSize="14" Foreground="White"/>
+            <TextBlock Text="Application:" Margin="0,10"  FontSize="14" Foreground="White"/>
+            <TextBlock Text="This is an app for editing and viewing namedays" Margin="0,-10"  FontSize="14" Foreground="White"/>
+        </StackPanel>
+        <Button Content="OK"     
+                    Foreground="Black" Background="White" Grid.Row ="0"
+                    VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="80" Margin="0,0,8,8"
+                Click="Click_OK"/>
+
+    </Grid>
+</Window>
